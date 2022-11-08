@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.header {
+    padding: 2%;
+    backdrop-filter: blur(6px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    
+}
+
+.avatar {
+    border-radius: 50%;
+    max-width: 50px;
+}
+
+header h2 {
+    display: inline-block;
+    font-size: 48 px;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#Link-1, #Link-2, #Link-3 {
+    background-color: rgb(151, 72, 48);
+}
+
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.About_Me {
+    margin: 20px;
+    padding: 60px;
+    height: 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    backdrop-filter: blur(6px);
+    color: antiquewhite;
+}
+
+.previous_work {
+    margin: 20px;
+    padding: 60px;
+    height: 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    backdrop-filter: blur(6px);
+    color: antiquewhite;
+}
+
+.contact_me {
+    margin-top: 100;
+    margin: 20px;
+    padding: 60px;
+    height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    backdrop-filter: blur(6px);
+    color: antiquewhite;
+}
+
+input[type=text] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    width: 400px;
+  }
+
+.rounded-input {
+    padding:10px;
+    border-radius:10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid rgb(95, 95, 95);
+}
+
+button {
+    appearance:none;
+    -webkit-appearance:none;
+    padding:10px;
+    border:none;
+    background-color:rgb(151, 72, 48);
+    color:white;
+    font-weight:600;
+    border-radius:5px;
+    width: 80%;
+  
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    backdrop-filter: blur(6px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    color: antiquewhite;
+}
+
+.text-center {
+    text-align: center;
+}
